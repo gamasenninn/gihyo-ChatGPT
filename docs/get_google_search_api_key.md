@@ -1,6 +1,6 @@
 # Google Search のAPIーKEYの取得について
 
-①プログラム可能な検索エンジン([https://programmablesearchengine.google.com/])のページを開き「使ってみる」をクリックします。アカウント入力を求められたら入力して先に進みます。
+①[プログラム可能な検索エンジン](https://programmablesearchengine.google.com/)のページを開き「使ってみる」をクリックします。アカウント入力を求められたら入力して先に進みます。
 
 ![](./images/gs_01.png)
 
