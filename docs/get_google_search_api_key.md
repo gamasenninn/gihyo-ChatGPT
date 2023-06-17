@@ -1,5 +1,11 @@
 # Google Search のAPIーKEYの取得について
 
+本書8章でGoogle Search APIを使用するにあたって、API-KEYを取得する必要があります。  
+以下にその取得方法を説明します。  
+
+  
+
+
 ①[プログラム可能な検索エンジン](https://programmablesearchengine.google.com/)のページを開き「使ってみる」をクリックします。アカウント入力を求められたら入力して先に進みます。
 
 ![](./images/gs_01.png)
