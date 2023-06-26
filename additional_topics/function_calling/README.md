@@ -1,9 +1,9 @@
-# functionについて
+# Function callingについて
 
-function calling の公式の告知は下記のURLを参照してください。  
+Function calling の公式の告知は下記のURLを参照してください。  
 https://openai.com/blog/function-calling-and-other-api-updates
 
-## function callingとは
+## Function callingとは
 2023/6/13、OpenAI社は新機能「Function calling」を発表しました。公式発表の説明をまとめると次のようになります。 
   
 GPT-4-0613とGPT-3.5-turbo-0613の開発者は、これらのモデルに関数を記述し、モデルがそれらの関数を呼び出すための引数を含むJSONオブジェクトをインテリジェントに出力することが可能になりました。これは、GPTの能力を外部ツールやAPIとより確実に連携させる新たな方法です。
