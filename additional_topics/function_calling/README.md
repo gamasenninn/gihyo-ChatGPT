@@ -26,5 +26,8 @@ https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/Explor
 このURLの記事の中のOpenAI Vanilla Exampleを参照してください。このコードを実行すれば公式の説明が理解できると思います。ですがサンプルではGPT-4を使っているので、一般的ではありまえせん。そこでこのリポジトリでサンプルを参考にしてGPT-3.5-turbo-16Kでも動くサンプルを作ります。  
 これらをGoogle Colabで実行したものをこのディレクトリにおいておきますので、インポートをして実行してみてください（未実装・作業中）。  
 
+## 7章のユースケースをFunction callingを使った場合どうなるか
+（未実装・作業中）
+
 
 
