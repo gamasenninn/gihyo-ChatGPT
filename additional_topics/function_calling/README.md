@@ -23,8 +23,8 @@ GPT-4-0613とGPT-3.5-turbo-0613の開発者は、これらのモデルに関数�
 まずは公式で述べられている実例を実行してどのようなものなのかを見てまいりましょう。  
 そのためにまずはコードを実行して実際に見ていくのがいいでしょう。LangChainのリポジトリにある次のコードが参考になります。OPEN AIの公式URLの例題をPythonで実装した形になっています。  
 https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/Exploring%20ChatGPT%20Function%20Calling.ipynb  
-このURLの記事の中のOpenAI Vanilla Exampleを参照してください。このコードを実行すれば公式の説明が理解できると思います。  
-これらをGoogle Colabで実行したものをこのディレクトリにおいておきますので、インポートをして実行してみてください。  
+このURLの記事の中のOpenAI Vanilla Exampleを参照してください。このコードを実行すれば公式の説明が理解できると思います。ですがサンプルではGPT-4を使っているので、一般的ではありまえせん。そこでこのリポジトリでサンプルを参考にしてGPT-3.5-turbo-16Kでも動くサンプルを作ります。  
+これらをGoogle Colabで実行したものをこのディレクトリにおいておきますので、インポートをして実行してみてください（未実装・作業中）。  
 
 
 
