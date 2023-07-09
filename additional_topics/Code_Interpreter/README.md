@@ -35,6 +35,24 @@ kikaku.pptxがダウンロードできるようになっています。
 クリックしてダウンロードし、ファイルを開くと次のように企画書の草案が出来ています。  
   
 ![PPTXファイルを開く](./images/pptx04.PNG)
+
+### diagramsによるクラウド図の自動生成 (9-4)
+diagramsライブラリーはCode Interpreterに搭載されたPython環境にはインストールされていないようです。それをインストールには外部からネットワークを経由する必要があり、その場合はインストールを行わないと判断するようです。
+
+![diagrams](./images/diagrams.PNG)
+
+
+### グラフの自動生成 (9-4)
+グラフの自動生成はCode Interpreterの得意とするところです。
+
+![graph01](./images/graph01.PNG)
+![graph01](./images/graph02.PNG)
   
+  
+![graph01](./images/graph03.PNG)
+
+## ファイルをアップロードして解析してもらう
+
+
   
 （以下、追加説明掲載予定）
