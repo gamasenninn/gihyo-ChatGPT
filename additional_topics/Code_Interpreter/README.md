@@ -60,6 +60,17 @@ Code Interpreterを使うことで、分野別学習が飛躍的に効率がよ�
 ![math01](./images/math02.PNG)
 ![math01](./images/math03.PNG)
 
+### TDD with ChatGPT....テストコードの実行(5-2)  
+
+書籍ではまずテストコードを書いて、その後ChatGPTにコード生成を依頼するという形を説明しています。Code Interpreterを使うことで、テストの実行をChatGPTのUI上で完結することができます。これはとても画期的です。  
+  
+さらに応用的にな使いかたもできます。  
+テストコードと本体関数を同時に生成、テストコードを実行してもらうことです。
+テストコードが一発で通らない場合は、何度もリトライしてテストコードが通るまで実行してくれる、というのが大きなポイントです。  
+
+![test01](./images/test_code01.jpg)
+![test02](./images/test_code02.jpg)
+![test03](./images/test_code03.jpg)
 
 ## グラフの表示で日本語が化ける問題への対処
 
