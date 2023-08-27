@@ -60,7 +60,7 @@ Code Interpreterを使うことで、分野別学習が飛躍的に効率がよ�
 ![math01](./images/math02.PNG)
 ![math01](./images/math03.PNG)
 
-### TDD with ChatGPT....テストコードの実行(5-2)  
+### TDD with ChatGPT①....テストコードの実行(5-2)  
 
 書籍ではまずテストコードを書いて、その後ChatGPTにコード生成を依頼するという形を説明しています。Code Interpreterを使うことで、テストの実行をChatGPTのUI上で完結することができます。これはとても画期的です。  
   
@@ -72,6 +72,24 @@ Code Interpreterを使うことで、分野別学習が飛躍的に効率がよ�
 ![test02](./images/test_code02.jpg)
 ![test03](./images/test_code03.jpg)
 
+### TDD with ChatGPT②....Flaskなどでのテストコードの実行(5-2)  
+Flaskなどのサーバー系処理をテストする場合、
+ビルトインサーバなどを起動してテストを実行する
+なんてことが必要です。  
+test_clientなどのオブジェクトを使ったりすると、
+サーバーを起動せずテストが可能になります。
+  
+そこで、この方法を使うとCode Interpreterでも
+Flaskのユニットテストが可能になります。  
+次の例は、  
+「Flaskを使用して簡単なサンプルプログラムを作成してください。そしてunittestでテストコード（正常系、異常系）も生成し、そのテストを実行し、結果を教えてください」  
+というプロンプトを投げて、一気呵成にFlaskのサンプルコードを生成してテストまでしてもらっています。
+
+![ci_flask_01](./images/ci_flask_01.PNG)
+![ci_flask_02](./images/ci_flask_02.PNG)
+![ci_flask_03](./images/ci_flask_03.PNG)
+![ci_flask_04](./images/ci_flask_04.PNG)
+  
 ## グラフの表示で日本語が化ける問題への対処
 
 Code Interpreterで出力されるグラフは日本語に対応していません。  
